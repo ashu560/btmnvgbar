@@ -32,6 +32,25 @@ class recipelist extends StatelessWidget {
                 ClipRRect(
                   borderRadius: BorderRadius.all(Radius.circular(25)),
                   child: Container(
+                    color: Colors.red.withOpacity(0.2),
+                    height: 150,
+                    width: 350,
+                    child: const Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Text(
+                        'Sample',
+                        style: TextStyle(
+                            fontSize: 22, fontWeight: FontWeight.w500),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                ClipRRect(
+                  borderRadius: BorderRadius.all(Radius.circular(25)),
+                  child: Container(
                     color: Colors.blueGrey.withOpacity(0.2),
                     height: 150,
                     width: 350,
